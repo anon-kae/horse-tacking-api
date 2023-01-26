@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "start": "DEBUG=debugging:* nodemon index.js",
     "dev": "DEBUG=debugging:* nodemon index.js"
   },
   "dependencies": {
